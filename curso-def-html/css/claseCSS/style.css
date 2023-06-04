@@ -1,0 +1,47 @@
+main{
+    width: 100%;
+    margin: auto;
+    background-color: blue;
+}
+section{
+    width: fit-content;
+    background-color: red;
+    margin: auto;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+  
+}
+ul{
+    padding: 0;
+    margin:0;
+   
+}
+ol{
+    list-style: none;
+    padding: 0;
+}
+ul ol li ul{
+    display: flex;
+    list-style: none;
+    
+}
+ul ol li ul li{
+
+background-color: rgb(41, 10, 77);
+padding: 5px;
+margin: 5px;
+border-radius: 5%;
+
+}
+figure{
+    display: flex;
+    flex-direction: column;
+}
+figure img{
+    width: 90px;
+    height: 90px;
+    border-radius: 10%;
+    box-shadow: 1px 1px 5px 1px;
+}
